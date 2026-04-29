@@ -926,6 +926,12 @@ onUnmounted(() => {
   /* 显示菜单按钮 */
   .menu-toggle {
     display: flex;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    left: auto;
+    z-index: 1001;
+    margin-right: 0;
   }
   
   .logo {
@@ -1031,6 +1037,7 @@ onUnmounted(() => {
   
   .logo {
     font-size: 14px;
+    line-height: 40px;
   }
   
   .title {
